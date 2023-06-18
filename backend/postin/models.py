@@ -8,6 +8,7 @@ class User(models.Model):
     
     def serialize(self):
         return {
+            "id" : self.id,
             "nickname" : self.nickname
         }
     

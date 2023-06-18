@@ -1,11 +1,14 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "af42abefb766e975f7680f10368735353569fb4fe0114e59496a7202658362fc"
+            "sha256": "99d4c839cb0a3c9e9ce2ea713ba00daa5390d33cbeae8ff2056068858cbf4dca"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.11"
+            "makemigrations": "python backend/manage.py makemigrations postin",
+            "migrate": "python backend/manage.py migrate",
+            "python_version": "3.11",
+            "startserver": "python backend/manage.py runserver"
         },
         "sources": [
             {

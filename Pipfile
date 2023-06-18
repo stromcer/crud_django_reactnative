@@ -10,3 +10,6 @@ django = "*"
 
 [requires]
 python_version = "3.11"
+startserver = "python backend/manage.py runserver"
+makemigrations = "python backend/manage.py makemigrations postin"
+migrate = "python backend/manage.py migrate"
